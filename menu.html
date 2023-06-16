@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="menu.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  </head>
+    <body>
+        <center>
+        <div id="order_menu">
+            <h2>Menu</h2>
+            <span><button onclick="salad()" class="menu">Salads</button></span>
+            <span id="salad_name"></span>
+            <span><button onclick="soup()" class="menu">Soups</button></span>
+            <span id="soup_name"></span>
+            <span><button onclick="starters()" class="menu">Starters and Appetizers</button></span>
+            <span id="starters_name"></span>
+            <span><button onclick="snack()" class="menu">Snacks</button></span>
+            <span id="snack_name"></span>
+            <span><button onclick="juice()" class="menu">Juices</button></span>
+            <span id="juice_name"></span><br> 
+        </div>
+        <div id="customization">
+            <h2>Customization</h2>
+            <span><button class="menu_customization" onclick="herbs()">Herbs</button></span>
+            <span id="herbDiv"></span>
+            <br>
+        </div>
+        <button onclick="ord()">Order</button>
+        </center>
+        <script src="menu.js"></script>
+    </body>
+    
+</html>
